@@ -34,7 +34,7 @@ if __name__ == "__main__":
     data = ((xL, tL), (xR, tR), (x_ic, t_ic, rho_ic, u_ic), (x_i, t_i), (x_left, x_right, t_b))
 
     # Train XPINN
-    train(pinn_L, pinn_R, data, epochs=150000, lr=1e-3, batch_size=256)
+    train(pinn_L, pinn_R, data, epochs=3000, lr=1e-3, batch_size=256)
 
     # Save trained models
     utils.save_model(pinn_L, "PINN_Project/checkpoints/pinn_L.pth")
