@@ -45,7 +45,7 @@ This sharp jump motivates the use of **XPINNs**, which divide the spatial domain
 The two are coupled through **interface continuity losses** that enforce matching $\rho$ and $u$ values at $x = 0$.
 
 Zero-gradient boundary conditions are enforced at the domain edges ($x = \pm 1$):
-$$\frac{\partial \rho}{\partial x} = \frac{\partial u}{\partial x} = 0$$
+$\frac{\partial \rho}{\partial x} = \frac{\partial u}{\partial x} = 0$
 
 ---
 
@@ -71,7 +71,7 @@ Batching allows for memory-efficient updates — each training iteration uses a 
 ### **Total Loss Function**
 
 The total loss is composed of:
-$$\mathcal{L} = \mathcal{L}_{\text{PDE}} + \mathcal{L}_{\text{IC}} + 10 \, \mathcal{L}_{\text{interface}} + \mathcal{L}_{\text{BC}}$$
+$\mathcal{L} = \mathcal{L}_{\text{PDE}} + \mathcal{L}_{\text{IC}} + 10 \, \mathcal{L}_{\text{interface}} + \mathcal{L}_{\text{BC}}$
 
 where:
 - $\mathcal{L}_{\text{PDE}}$ enforces the governing equations  
