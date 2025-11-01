@@ -46,7 +46,9 @@ The two are coupled through **interface continuity losses** that enforce matchin
 
 Zero-gradient boundary conditions are enforced at the domain edges ($x = \pm 1$):
 $$
+\begin{aligned}
 \frac{\partial \rho}{\partial x} = \frac{\partial u}{\partial x} = 0
+\end{aligned}
 $$
 
 ---
@@ -74,7 +76,9 @@ Batching allows for memory-efficient updates — each training iteration uses a 
 
 The total loss is composed of:
 $$
+\begin{aligned}
 \mathcal{L} = \mathcal{L}_{\text{PDE}} + \mathcal{L}_{\text{IC}} + 10 \, \mathcal{L}_{\text{interface}} + \mathcal{L}_{\text{BC}}
+\end{aligned}
 $$
 
 where:
