@@ -152,3 +152,11 @@ PINN_Project/
 ## References
 - Raissi, M., Perdikaris, P., & Karniadakis, G. E. (2019). *Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations.*  
 - Jagtap, A. D., Kawaguchi, K., & Karniadakis, G. E. (2020). *Extended Physics-Informed Neural Networks (XPINNs): A Generalized Space-Time Domain Decomposition based Deep Learning Framework for Nonlinear PDEs.*
+
+---
+
+## Authors
+
+This repository is a collaborative project under **Dr. Kirit Makwana's** Computational Physics course (EP4210) at IIT Hyderabad (Fall 2025).
+
+Collaborators: [Abhinandan L](https://github.com/abhinandan2005)  [Abhinav Ganesh Vashishta](https://github.com/AbhinavVashishta)  [Samarth Gupta](https://github.com/samforarth)
