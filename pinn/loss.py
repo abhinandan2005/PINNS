@@ -4,9 +4,8 @@ from pinn.physics import pde_residual
 
 def loss_fn(pinn_L, pinn_R, xL, tL, xR, tR, x_ic, t_ic, rho_ic, u_ic, 
             x_i, t_i, x_left, x_right, t_b):
-    """
-    Total loss = PDE loss + IC loss + Interface continuity + Boundary conditions
-    """
+    
+    # Total loss = PDE loss + IC loss + Interface continuity + Boundary conditions
     
     # 1. PDE residuals
     res_rho_L, res_u_L = pde_residual(pinn_L, xL, tL)

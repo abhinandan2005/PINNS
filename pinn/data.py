@@ -2,17 +2,7 @@
 import torch
 from torch.utils.data import TensorDataset, DataLoader
 
-def create_dataloaders(data, batch_size=256):
-    """
-    Create DataLoaders for batched training
-    
-    Args:
-        data: Tuple of all training data
-        batch_size: Number of samples per batch
-    
-    Returns:
-        Dictionary of DataLoaders
-    """
+def create_dataloaders(data, batch_size=256): #Create dataloaders for desired batch size
     (xL, tL), (xR, tR), (x_ic, t_ic, rho_ic, u_ic), (x_i, t_i), (x_left, x_right, t_b) = data
     
     # Create datasets
