@@ -42,13 +42,13 @@ if __name__ == "__main__":
 
     # Plotting our results
     utils.plot_spacetime(pinn_L, pinn_R, 
-                        save_path="PINN_Project/results/spacetime.png")
+                        save_path="results/spacetime.png")
     
     utils.plot_solution(pinn_L, pinn_R, t_fixed=0, 
-                       save_path="PINN_Project/results/solution_t00.png")
+                       save_path="results/solution_t00.png")
     
     utils.plot_solution(pinn_L, pinn_R, t_fixed=0.5, 
-                       save_path="PINN_Project/results/solution_t05.png")
+                       save_path="results/solution_t05.png")
     
     utils.plot_solution(pinn_L, pinn_R, t_fixed=1, 
-                       save_path="PINN_Project/results/solution_t10.png")
+                       save_path="results/solution_t10.png")
